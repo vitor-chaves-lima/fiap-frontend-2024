@@ -1,0 +1,21 @@
+p {
+  margin: 0 auto;
+  border: 5px solid red;
+  width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.styled-text {
+  font-family: Arial;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+span {
+  font-weight: bold;
+  color: blue;
+  text-decoration: underline;
+}
