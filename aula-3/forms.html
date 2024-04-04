@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários em HTML</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <div>
+          <label for="txtName">Nome: </label>
+          <input
+            id="txtName"
+            type="text"
+            name="txtName"
+            placeholder="Digite seu nome"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="txtEmail">E-mail: </label>
+          <input
+            id="txtEmail"
+            type="email"
+            name="txtEmail"
+            placeholder="Digite seu E-mail"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="txtPassword">Password: </label>
+          <input
+            id="txtPassword"
+            type="password"
+            name="txtPassword"
+            placeholder="Digite sua senha"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="txtBirthDate">Data nascimento: </label>
+          <input
+            id="txtBirthDate"
+            type="date"
+            name="txtBirthDate"
+            placeholder="Digite sua data de nascimento"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="selectState">Estado: </label>
+          <select name="selectState" id="selectState">
+            <option value="sp">São Paulo</option>
+            <option value="sp">Rio de Janeiro</option>
+            <option value="sp">Espirito Santo</option>
+            <option value="sp">Bahia</option>
+            <option value="sp">Pernambuco</option>
+          </select>
+        </div>
+
+        <div>
+          <p>Escolha a sua linguagem de programação:</p>
+
+          <div>
+            <input type="radio" name="favLanguage" id="csharp" value="csharp" />
+            <label for="csharp">Csharp</label>
+          </div>
+
+          <div>
+            <input type="radio" name="favLanguage" id="python" value="python" />
+            <label for="python">Python</label>
+          </div>
+
+          <div>
+            <input type="radio" name="favLanguage" id="js" value="js" />
+            <label for="js">Javascript</label>
+          </div>
+        </div>
+
+        <div>
+          <p>Escolha suas linguagens de programação favoritas:</p>
+
+          <div>
+            <input type="checkbox" name="favTransport" id="bike" value="bike" />
+            <label for="bike">Bicicleta</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="favTransport" id="car" value="car" />
+            <label for="car">Carro</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="favTransport" id="bus" value="bus" />
+            <label for="bus">Ônibus</label>
+          </div>
+        </div>
+
+        <div>
+          <label for="textArea">Área de texto</label>
+          <textarea name="textArea" id="textArea"></textarea>
+        </div>
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+  </body>
+</html>
